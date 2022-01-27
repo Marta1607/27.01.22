@@ -9,13 +9,35 @@
     
 </head>
 <body>
-    <div style="text-align: center;">
-        <h3>Obliczanie na podstawie powierzchni zapotrzebowania na farbę</h3>
+    <div class="naw">
+        <a href="./index.html"><h2 class="ha">Koszt farby</h2></a>
     </div>
-    <div>
-        <b>Podaj powierzchnię:</b>
-        <input type="number">
-        <button>Policz</button>
+    <div class="grid">
+        <div class="item1">
+            <h3 class="i1">Mieszmy czy wyceniamy?</h3>
+            <a class="i1" href="./mieszamy.html">mieszamy</a>
+            <br><a class="i1" href="./cena.html">wyceniamy</a>
+        </div>
+        <div class="item2">
+        <div>
+            <h3>Obliczanie na podstawie powierzchni zapotrzebowania na farbę</h3>
+        </div>
+        <div>
+            <b>Podaj powierzchnię:</b>
+            <input  type="number" id="podstawa">
+            <button onclick="pobieranie().value">Policz</button>
+            <p id="wynik"></p>
+            <img src="./z.png" alt="abstrakcja" width="40%">
+
+        </div>
+        <div id="napis"></div>
     </div>
+    </div>
+    <footer class="foo">
+        <h1>MLARZ</h1>
+        <P>STRONĘ OPRACOWAŁ : 00000000000</P>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
